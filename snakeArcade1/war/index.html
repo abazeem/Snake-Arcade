@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src = "jquery.js"></script>
+<script type="text/javascript" src = "snakeJS.js"></script>
+<link rel="stylesheet" type ="text/css" href="mainStyleSheet.css"/>
+<Title>Home
+</Title>
+</head>
+
+<body onload = 'loadPage()' >
+	<div id = 'intro' class = 'intro'>
+		<h4>
+			Use the buttons on the screen or the arrows keys to change the direction of the snake
+		</h4>
+	</div>
+	<div id = 'pageContainer' >
+		<div id = 'container' class = 'container'>
+		</div>
+		<div id = 'textContainer' class = 'textContainer'>
+			<div id = 'dispScore' style = 'padding: 10px 5px'>
+				Score : <span id = 'score'></span> 
+			</div>
+			<button id = 'startAgain' class = 'startAgain' onclick = 'startAgain()'> Play Again
+			</button>
+		</div>
+		<div id = 'controlButtons' class = 'buttonContainer' >
+			<div class = 'singleButton'>
+				<button onclick = 'changeDirection(this.id)' class = 'buttons' id = 'up' >Up
+				</button>
+			</div>
+			<div class = 'doubleButtons'>
+				<button onclic	k = 'changeDirection(this.id)' class = 'buttons' id = 'left' >Left
+				</button>
+				<button onclick = 'changeDirection(this.id)' class = 'buttons' id = 'down' >Down
+				</button>
+				<button onclick = 'changeDirection(this.id)' class = 'buttons'id = 'right' >Right
+				</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

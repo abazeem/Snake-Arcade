@@ -1,0 +1,79 @@
+.element
+{
+	width: 10px;
+	height: 10px;
+	margin : 0.5px;
+	background-color: lightgray;
+	display: inline-block;
+}
+.rows
+{
+    width: 330px;
+}
+
+.container
+{
+	width: 350px;
+    padding-left: 18px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    height: auto;
+    border: 1px solid gray;
+	display: inline-block;
+}
+
+.set
+{
+	background-color: black!important;
+}
+
+.buttons
+{
+	width: 50px;
+	height: 50px;
+	display: block;
+}
+
+.buttonContainer
+{
+	margin: 10px 72px;
+	width: 200px;
+	height: 100px;
+}
+
+.singleButton
+{
+	width: 50px;
+	margin: 0 auto;
+}
+
+.doubleButtons
+{
+	width: 150px;
+	display: inline-flex;
+	margin: 0 25px;
+}
+
+.textContainer
+{
+	display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+    font-size: x-large;
+    text-align: center;
+    left: 72px;
+    bottom: 173px;
+    font-family: monospace;
+}
+
+.startAgain
+{
+	width: 100px;
+	height: 50px;
+	font-size: medium;
+}
+
+.intro
+{
+	width: 400px;
+}
